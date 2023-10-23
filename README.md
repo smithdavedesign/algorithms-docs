@@ -1,7 +1,7 @@
 <img width="1727" alt="Screenshot 2023-10-23 at 3 29 06 PM" src="https://github.com/smithdavedesign/algorithms-docs/assets/8701541/23485d93-a074-4345-97c3-dc845897d098">
 
 # intro
-This documentation was built with Astro and starlight. If you would like to create your own beautuful documentation website you ca do so by visiting [Starlight website](https://starlight.astro.build/getting-started/). Prerequisites Astro [Astro](https://astro.build/). You can also find this projects source code [here.](https://starlight.astro.build/getting-started/)
+This documentation was built with Astro and starlight. If you would like to create your own beautuful documentation website you ca do so by visiting [Starlight website](https://starlight.astro.build/getting-started/). Prerequisites Astro [Astro](https://astro.build/). You can also find this projects source code here....!
 
 
 
@@ -55,3 +55,4 @@ All commands are run from the root of the project, from a terminal:
 
 Check out [Starlight’s docs](https://starlight.astro.build/), read [the Astro documentation](https://docs.astro.build), or jump into the [Astro Discord server](https://astro.build/chat).
 # astro-theme-starlight-documentation-template
+
