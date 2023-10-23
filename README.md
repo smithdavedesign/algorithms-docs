@@ -1,3 +1,5 @@
+<img width="1727" alt="Screenshot 2023-10-23 at 3 29 06 PM" src="https://github.com/smithdavedesign/algorithms-docs/assets/8701541/23485d93-a074-4345-97c3-dc845897d098">
+
 # Starlight Starter Kit: Basics
 
 [![Built with Starlight](https://astro.badg.es/v2/built-with-starlight/tiny.svg)](https://starlight.astro.build)
@@ -6,10 +8,6 @@
 npm create astro@latest -- --template starlight
 ```
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/starlight/tree/main/examples/basics)
-[![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/sandbox/github/withastro/starlight/tree/main/examples/basics)
-
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
 
 ## 🚀 Project Structure
 
