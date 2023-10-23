@@ -50,6 +50,3 @@ The time complexity of Insertion Sort is O(n^2), where n is the number of elemen
 ## Summary
 Insertion Sort is a simple sorting algorithm suitable for small datasets or nearly sorted lists. It builds the final sorted array one item at a time and has a time complexity of O(n^2), making it less efficient for large datasets.
 
-## Further reading
-
-- Read [about how-to guides](https://diataxis.fr/how-to-guides/) in the Diátaxis framework

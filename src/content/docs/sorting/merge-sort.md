@@ -70,6 +70,3 @@ The time complexity of Merge Sort is O(n log n), where n is the number of elemen
 ## Summary
 Merge Sort is an efficient and stable sorting algorithm with a time complexity of O(n log n). It is suitable for large datasets but requires additional space for the merging process.
 
-## Further reading
-
-- Read [about how-to guides](https://diataxis.fr/how-to-guides/) in the Diátaxis framework

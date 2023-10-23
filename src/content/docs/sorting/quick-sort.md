@@ -48,6 +48,3 @@ The average and best-case time complexity of Quick Sort is O(n log n). However, 
 ## Summary
 Quick Sort is a fast and efficient sorting algorithm with an average and best-case time complexity of O(n log n). It is suitable for large datasets but may degrade in performance in certain scenarios.
 
-## Further reading
-
-- Read [about how-to guides](https://diataxis.fr/how-to-guides/) in the Diátaxis framework

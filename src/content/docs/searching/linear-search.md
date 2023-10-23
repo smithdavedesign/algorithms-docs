@@ -49,7 +49,3 @@ The time complexity of Linear Search is O(n), where n is the number of elements 
 ## Summary
 Linear Search is a simple yet effective algorithm for finding a target element in an array. While not as fast as some other search algorithms, it performs well for smaller datasets or unsorted collections.
 
-
-## Further reading
-
-- Read [about how-to guides](https://diataxis.fr/how-to-guides/) in the Diátaxis framework

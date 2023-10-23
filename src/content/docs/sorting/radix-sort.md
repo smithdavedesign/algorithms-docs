@@ -76,6 +76,3 @@ The time complexity of Radix Sort is O(k * n), where n is the number of elements
 ## Summary
 Radix Sort is a non-comparative sorting algorithm suitable for integers with a fixed number of digits. It achieves linear time complexity for each pass through the digits, making it efficient for certain scenarios.
 
-## Further reading
-
-- Read [about how-to guides](https://diataxis.fr/how-to-guides/) in the Diátaxis framework

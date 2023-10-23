@@ -44,6 +44,3 @@ Big O notation represents an upper bound, and actual performance may be better (
 ## Practical Use:
 Engineers and developers use Big O notation to make informed decisions about algorithm selection, especially when dealing with large datasets.
 
-## Further reading
-
-- Read [about how-to guides](https://diataxis.fr/how-to-guides/) in the Diátaxis framework
