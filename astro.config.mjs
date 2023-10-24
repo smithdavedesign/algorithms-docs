@@ -48,5 +48,4 @@ export default defineConfig({
       ],
     }),
   ],
-  output: 'public', // Specify the output directory
 });
