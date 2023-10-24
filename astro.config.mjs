@@ -3,6 +3,8 @@ import starlight from '@astrojs/starlight';
 
 // https://astro.build/config
 export default defineConfig({
+  site: 'https://smithdavedesign.github.io/',
+  base: '/algorithms-docs',
   integrations: [
     starlight({
       title: 'Daves Docs',
