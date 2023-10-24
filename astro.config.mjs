@@ -14,13 +14,6 @@ export default defineConfig({
       },
       sidebar: [
         {
-          label: 'Components Reference',
-          items: [
-            // Each item here is one entry in the navigation menu.
-            { label: 'Components Reference', link: '/reference/example/' },
-          ],
-        },
-        {
           label: 'Big O Notation',
           items: [
             // Each item here is one entry in the navigation menu.
@@ -45,6 +38,13 @@ export default defineConfig({
             { label: 'Quick Sort', link: '/sorting/quick-sort/' },
             { label: 'Radix Sort', link: '/sorting/radix-sort/' },
             { label: 'Selection Sort', link: '/sorting/selection-sort/' },
+          ],
+        },
+        {
+          label: 'Components',
+          items: [
+            // Each item here is one entry in the navigation menu.
+            { label: 'Components', link: '/reference/example/' },
           ],
         },
       ],
