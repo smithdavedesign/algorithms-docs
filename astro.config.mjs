@@ -6,6 +6,8 @@ export default defineConfig({
   integrations: [
     starlight({
       title: 'Daves Docs',
+      site: 'https://smithdavedesign.github.io ',
+	    base: '/algorithms-docs',
       social: {
         github: 'https://github.com/smithdavedesign',
         linkedin: 'https://www.linkedin.com/in/codingforgood/',
