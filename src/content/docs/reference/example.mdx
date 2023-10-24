@@ -3,10 +3,10 @@ title: Component References
 description: A reference page to see comp available.
 ---
 
-import { Card, CardGrid } from '@astrojs/starlight/components';
-import { Tabs, TabItem } from '@astrojs/starlight/components';
-import { LinkCard } from '@astrojs/starlight/components';
-import { Icon } from '@astrojs/starlight/components';
+import { Card, CardGrid } from "@astrojs/starlight/components";
+import { Tabs, TabItem } from "@astrojs/starlight/components";
+import { LinkCard } from "@astrojs/starlight/components";
+import { Icon } from "@astrojs/starlight/components";
 
 ## Summary
 
@@ -14,73 +14,82 @@ This documentation was built with Astro and starlight. If you would like to crea
 
 ## Markdown Cheat Sheet
 
-This Markdown cheat sheet provides a quick overview of all the Markdown syntax elements. 
+This Markdown cheat sheet provides a quick overview of all the Markdown syntax elements.
+
+### Tabs
+
+<Tabs>
+  <TabItem label="About Me">
+    <CardGrid stagger>
+      <Card title="Portfolio" icon="pencil">
+        Check out my [portfolio](https://smithdavedesign.herokuapp.com/).
+      </Card>
+      <Card title="LinkedIn" icon="add-document">
+        Reach out via [LinkedIn](https://www.linkedin.com/in/codingforgood/).
+      </Card>
+      <Card title="Connect" icon="setting">
+        Send me an email
+      </Card>
+    </CardGrid>
+  </TabItem>
+  <TabItem label="Learning">
+    <CardGrid stagger>
+      <Card title="Check this out" icon="pencil">
+        - [x] Write the press release - [ ] Update the website - [ ] Contact the
+        media
+      </Card>
+      <Card title="Create anything" icon="add-document">
+        | Syntax | Description | | ----------- | ----------- | | Header | Title
+        | | Paragraph | Text |
+      </Card>
+      <Card title="Searching for some answers?" icon="setting">
+        awesome. I have some for you.
+      </Card>
+      <Card title="Get started" icon="open-book">
+        Learn more in [the Starlight Docs](https://starlight.astro.build/).
+      </Card>
+    </CardGrid>
+  </TabItem>
+</Tabs>
 
 ### Cards
+
 <CardGrid>
-	<Card title="Stars" icon="star">
-		Sirius, Vega, Betelgeuse
-	</Card>
-	<Card title="Moons" icon="moon">
-		Io, Europa, Ganymede
-	</Card>
+  <Card title="Stars" icon="star">
+    Sirius, Vega, Betelgeuse
+  </Card>
+  <Card title="Moons" icon="moon">
+    Io, Europa, Ganymede
+  </Card>
 </CardGrid>
 
 <Card title="Check this out">Interesting content you want to highlight.</Card>
 
 ### Link Cards
+
 <LinkCard
-	title="Customizing Starlight"
-	description="Learn how to make your Starlight site your own with custom styles, fonts, and more."
-	href="/guides/customization/"
+  title="Customizing Starlight"
+  description="Learn how to make your Starlight site your own with custom styles, fonts, and more."
+  href="/guides/customization/"
 />
 
 <CardGrid>
-	<LinkCard title="Authoring Markdown" href="/guides/authoring-content/" />
-	<LinkCard title="Components" href="/guides/components/" />
+  <LinkCard title="Authoring Markdown" href="/guides/authoring-content/" />
+  <LinkCard title="Components" href="/guides/components/" />
 </CardGrid>
 
-### Tabs
-<Tabs>
-	<TabItem label="Learning">
-	<CardGrid stagger>
-	<Card title="Sorting Algorithms" icon="pencil">
-		Edit `src/content/docs/index.mdx` to see this page change.
-	</Card>
-	<Card title="Add new content" icon="add-document">
-		Add Markdown or MDX files to `src/content/docs` to create new pages.
-	</Card>
-	<Card title="Searching Algorithms" icon="setting">
-		Edit your `sidebar` and other config in `astro.config.mjs`.
-	</Card>
-	<Card title="Traversing Algorithms" icon="open-book">
-		Learn more in [the Starlight Docs](https://starlight.astro.build/).
-	</Card>
-</CardGrid>
-	</TabItem>
-	<TabItem label="About Me"><CardGrid stagger>
-	<Card title="Portfolio" icon="pencil">
-		Edit `src/content/docs/index.mdx` to see this page change.
-	</Card>
-	<Card title="LinkedIn" icon="add-document">
-		Add Markdown or MDX files to `src/content/docs` to create new pages.
-	</Card>
-	<Card title="Connect" icon="setting">
-		Edit your `sidebar` and other config in `astro.config.mjs`.
-	</Card>
-
-</CardGrid></TabItem>
-</Tabs>
 
 ### Code snipet
+
 ```js
 // Javascript code with syntax highlighting.
 var fun = function lang(l) {
-  dateformat.i18n = require('./lang/' + l);
+  dateformat.i18n = require("./lang/" + l);
   return true;
 };
 ```
-### Icons 
+
+### Icons
 
 <Icon name="star" color="goldenrod" size="2rem" />
 
@@ -96,12 +105,12 @@ You can highlight `inline code` with backticks.
 
 ![An illustration of planets and stars featuring the word “astro”](https://raw.githubusercontent.com/withastro/docs/main/public/default-og-image.png)
 
-![A BigO in the wild](../../../../public/bigO.png)
-
 ### Heading
 
 # H1
+
 ## H2
+
 ### H3
 
 ### Bold
@@ -110,7 +119,7 @@ You can highlight `inline code` with backticks.
 
 ### Italic
 
-*italicized text*
+_italicized text_
 
 ### Blockquote
 
@@ -127,10 +136,6 @@ You can highlight `inline code` with backticks.
 - First item
 - Second item
 - Third item
-
-### Code
-
-`code`
 
 ### Horizontal Rule
 
@@ -150,10 +155,10 @@ These elements extend the basic syntax by adding additional features. Not all Ma
 
 ### Table
 
-| Syntax | Description |
-| ----------- | ----------- |
-| Header | Title |
-| Paragraph | Text |
+| Syntax    | Description |
+| --------- | ----------- |
+| Header    | Title       |
+| Paragraph | Text        |
 
 ### Fenced Code Block
 
@@ -186,5 +191,3 @@ Here's a sentence with a footnote. [^1]
 That is so funny! 😂
 
 (See also [Copying and Pasting Emoji](https://www.markdownguide.org/extended-syntax/#copying-and-pasting-emoji))
-
-
