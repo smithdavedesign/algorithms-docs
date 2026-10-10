@@ -1,6 +1,55 @@
 <img width="1727" alt="Screenshot 2023-10-23 at 3 29 06 PM" src="https://github.com/smithdavedesign/algorithms-docs/assets/8701541/23485d93-a074-4345-97c3-dc845897d098">
 
 # intro
+
+## Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/smithdavedesign/algorithms-docs.git
+   cd algorithms-docs
+   ```
+   (Note: The repository is already checked out in your working directory; you can skip the clone step.)
+
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+
+3. Environment variables (if any):
+   - No `.env.example` file found; if the project requires environment variables, create a `.env` file based on the project's needs.
+
+## Usage
+
+Run the development server:
+   ```bash
+   npm run dev
+   ```
+   or
+   ```bash
+   npm start
+   ```
+
+Preview the production build:
+   ```bash
+   npm run preview
+   ```
+
+Build for production:
+   ```bash
+   npm run build
+   ```
+
+Run Astro CLI commands:
+   ```bash
+   npm run astro -- --help
+   ```
+
+Run tests (currently no tests defined):
+   ```bash
+   npm test
+   ```
+
 This documentation was built with Astro and starlight. If you would like to create your own beautuful documentation website you ca do so by visiting [Starlight website](https://starlight.astro.build/getting-started/). Prerequisites Astro [Astro](https://astro.build/). You can also find this projects source code here....!
 
 
